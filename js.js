@@ -16,14 +16,14 @@
 				var id=img[i].id;
 				var src=img[i].src;
 			anchors[i].onclick = function(){openCard(id,id)};
-	}*/
+	}
 	for(var i = 0;i <= 17;i++){
     document.getElementById("c" + i).onclick = function(){
         openCard("i" + i, Math.floor(i / 2) + 1);
     };
-}
+}*/
 		
-		/*document.getElementById("c0").onclick = function(){openCard("i0",1)};
+		document.getElementById("c0").onclick = function(){openCard("i0",1)};
 		document.getElementById("c1").onclick = function(){openCard("i1", 1)};
 		document.getElementById("c2").onclick = function(){openCard("i2",2)};	
 		document.getElementById("c3").onclick = function(){openCard("i3",2)};
@@ -40,7 +40,7 @@
 		document.getElementById("c14").onclick = function(){openCard("i14",8)};
 		document.getElementById("c15").onclick = function(){openCard("i15",8)};
 		document.getElementById("c16").onclick = function(){openCard("i16",9)};
-		document.getElementById("c17").onclick = function(){openCard("i17",9)};*/
+		document.getElementById("c17").onclick = function(){openCard("i17",9)};
 		
 		function openCard(id, cardMatch)
 		{
