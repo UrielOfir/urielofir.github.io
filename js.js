@@ -11,7 +11,7 @@
 		
 		var img = document.getElementsByTagName("img");	
 		var anchors = document.getElementsByTagName("li");
-		
+		//trying
 	/*		for (var i = 0; i < anchors.length; i++) {
 				var id=img[i].id;
 				var src=img[i].src;
