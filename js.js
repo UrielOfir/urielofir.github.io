@@ -19,7 +19,7 @@ for (var i = 0; i < classname.length; i++) {
     openCard(id, attr);
   });
 }
-		
+		//just for the fun
 		function openCard(id, cardMatch)
 		{
 			if(stopClick==0 && (document.getElementById(id).style.visibility=="hidden"||document.getElementById(id).style.visibility==""))
