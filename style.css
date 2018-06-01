@@ -1,36 +1,57 @@
+body{
+	direction: rtl;
+	font: bold 50px Arial;
+}
 #announcement
 {
-	display: inline-block;
+	display: table;
 	position: absolute;
 	height:75%;
 	width:75%;
 	background-color: red;
 	left:12.5%;
 	top: 12.5%;
-	visibility:hidden;	
+	border-radius:20%;
+}
+#annText{
+	display: table-cell;
+	vertical-align: middle;
+	text-align:center;
 	
 }
 #board{
+	display: block;
+	width: 100%;
+	height:100%;
+	margin:0 auto;
+	background-color: brown;
 	
 	
 	
-	margin: 2px auto;
 	
 }
 ul
 {
 	list-style-type: none;
+	display: block;
+	padding-left:50px;
+	
+	
+	
 }
 img{
 	visibility:hidden;
+	border-radius:10%;
 }
 
 .card
 {
 	height:200px;
 	width:200px;
-	background-color:blue;
-	margin: 5px;
+	background-color:pink;
+	margin: 2px;
 	border: 1px solid black;
 	float: left;
+	border-radius:10%;
+		
 }
